@@ -90,3 +90,12 @@ public class Main {
         }
     }
 }
+/*Açıklamalar:
+
+3- numberToWords metodu:
+İlk olarak, eğer sayı negatifse "Invalid Value" döner.
+Sıfır olduğu durumda "Zero" döndürülür.
+Ardından, sayının her bir basamağını alarak yazıya döker ve birleştirir.
+getWordForDigit metodu:
+Verilen rakamı (digit) karşılık gelen kelimeye dönüştürmek için bir switch ifadesi kullanılır.
+Örneğin, 1 için "One", 2 için "Two", vb.*/
